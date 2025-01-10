@@ -1,9 +1,4 @@
-# Formulario Web Con Diseño Llamativo | HTML + CSS | Tutorial Paso a Paso
-
-Mira el tutorial aquí: [https://PROXIMAMENTE](https://PROXIMAMENTE)
-
----
-
+# Formulario Web Con Diseño Llamativo | HTML + CSS + JavaScript|
 ## Vista Previa
 
 ¡Así es como quedó el formulario web! 
