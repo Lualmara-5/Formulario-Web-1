@@ -12,3 +12,16 @@ function togglePassword(id) {
     icon.classList.add("bx-show");
   }
 }
+
+// Ocultar o mostrar el icono basado en el contenido del input
+document.querySelectorAll('input[type="password"]').forEach((input) => {
+  const icon = input.nextElementSibling;
+
+  // Ocultar icono al cargar la página
+  icon.style.display = input.value ? "inline" : "none";
+
+  // Detectar cambios en el input
+  input.addEventListener("input", function () {
+    icon.style.display = this.value.length > 0 ? "inline" : "none";
+  });
+});
